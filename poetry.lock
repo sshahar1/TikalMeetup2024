@@ -1128,6 +1128,21 @@ PyYAML = ">=5.3"
 tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<9.0.0"
 
 [[package]]
+name = "langchain-couchbase"
+version = "0.0.1"
+description = "An integration package connecting Couchbase and LangChain"
+optional = false
+python-versions = "<4.0,>=3.8.1"
+files = [
+    {file = "langchain_couchbase-0.0.1-py3-none-any.whl", hash = "sha256:4a5403932195642e49980f217a27d47e0d3818ff7439023f78aad6618b5d0dfa"},
+    {file = "langchain_couchbase-0.0.1.tar.gz", hash = "sha256:fecf3de7e370a3dc0cc519385abe975684b005cdd723873dc2580b561a1426e9"},
+]
+
+[package.dependencies]
+couchbase = ">=4.2.1,<5.0.0"
+langchain-core = ">=0.2.0,<0.3"
+
+[[package]]
 name = "langchain-openai"
 version = "0.1.14"
 description = "An integration package connecting OpenAI and LangChain"
@@ -2691,4 +2706,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "70d954f7ad26262946dfd2eb3810bc3138d28a1a560cb2e2e4bebf70d63062b8"
+content-hash = "53c0c76152dc054f7c7e35659cdb1411b0c1ad764ab0e4cc32a49614b4529f27"

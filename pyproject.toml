@@ -8,11 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 python-dotenv = "1.2.2"
-langchain = "^0.2.11"
-langchain_openai = "0.1.14"
-langchain-couchbase = "^0.1.0"
+langchain = "^0.3.30"
+langchain_openai = "0.2.0"
+langchain-couchbase = "^0.2.0"
 couchbase = "^4.2.1"
-langgraph = "^0.1.9"
+langgraph = "^0.2.0"
+langgraph-checkpoint-sqlite = "^1.0.4"
 jupyter = "^1.0.0"
 
 [build-system]

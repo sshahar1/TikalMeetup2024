@@ -2,3 +2,4 @@
 *.iml
 .env
 .ipynb_checkpoints/
+.tool-versions
